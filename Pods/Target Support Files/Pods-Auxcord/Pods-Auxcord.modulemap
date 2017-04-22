@@ -1,0 +1,6 @@
+framework module Pods_Auxcord {
+  umbrella header "Pods-Auxcord-umbrella.h"
+
+  export *
+  module * { export * }
+}

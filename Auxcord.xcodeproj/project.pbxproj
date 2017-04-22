@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D1616CA620E382EE159F23 /* Pods_Auxcord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F6FF6BA16D48ADEAD40D56 /* Pods_Auxcord.framework */; };
+		E1E502CE1EABAB2700620702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E502CD1EABAB2700620702 /* AppDelegate.swift */; };
+		E1E502D71EABAB2800620702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E502D51EABAB2800620702 /* Main.storyboard */; };
+		E1E502D91EABAB2800620702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E502D81EABAB2800620702 /* Assets.xcassets */; };
+		E1E502DC1EABAB2800620702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E502DA1EABAB2800620702 /* LaunchScreen.storyboard */; };
+		E1E502E71EABAB2800620702 /* AuxcordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E502E61EABAB2800620702 /* AuxcordTests.swift */; };
+		E1E502F21EABAB2800620702 /* AuxcordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E502F11EABAB2800620702 /* AuxcordUITests.swift */; };
+		E1E503001EABAB9000620702 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E502FF1EABAB9000620702 /* LoginVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1E502E31EABAB2800620702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E502C21EABAB2700620702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E502C91EABAB2700620702;
+			remoteInfo = Auxcord;
+		};
+		E1E502EE1EABAB2800620702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E502C21EABAB2700620702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E502C91EABAB2700620702;
+			remoteInfo = Auxcord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37F6FF6BA16D48ADEAD40D56 /* Pods_Auxcord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auxcord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF1D7EEE897098E1E3B7CA1 /* Pods-Auxcord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auxcord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auxcord/Pods-Auxcord.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC0481C5D0147B31F88006F /* Pods-Auxcord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auxcord.release.xcconfig"; path = "Pods/Target Support Files/Pods-Auxcord/Pods-Auxcord.release.xcconfig"; sourceTree = "<group>"; };
+		E1E502CA1EABAB2700620702 /* Auxcord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auxcord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E502CD1EABAB2700620702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1E502D61EABAB2800620702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1E502D81EABAB2800620702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E502DB1EABAB2800620702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1E502DD1EABAB2800620702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E502E21EABAB2800620702 /* AuxcordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuxcordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E502E61EABAB2800620702 /* AuxcordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxcordTests.swift; sourceTree = "<group>"; };
+		E1E502E81EABAB2800620702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E502ED1EABAB2800620702 /* AuxcordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuxcordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E502F11EABAB2800620702 /* AuxcordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxcordUITests.swift; sourceTree = "<group>"; };
+		E1E502F31EABAB2800620702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E502FF1EABAB9000620702 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E502C71EABAB2700620702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D1616CA620E382EE159F23 /* Pods_Auxcord.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E502DF1EABAB2800620702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E502EA1EABAB2800620702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C80E30111F79A588B2C7FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37F6FF6BA16D48ADEAD40D56 /* Pods_Auxcord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1E502C11EABAB2600620702 = {
+			isa = PBXGroup;
+			children = (
+				E1E502CC1EABAB2700620702 /* Auxcord */,
+				E1E502E51EABAB2800620702 /* AuxcordTests */,
+				E1E502F01EABAB2800620702 /* AuxcordUITests */,
+				E1E502CB1EABAB2700620702 /* Products */,
+				F945710EC9A779931349EC74 /* Pods */,
+				18C80E30111F79A588B2C7FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E502CB1EABAB2700620702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E502CA1EABAB2700620702 /* Auxcord.app */,
+				E1E502E21EABAB2800620702 /* AuxcordTests.xctest */,
+				E1E502ED1EABAB2800620702 /* AuxcordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1E502CC1EABAB2700620702 /* Auxcord */ = {
+			isa = PBXGroup;
+			children = (
+				E1E502CD1EABAB2700620702 /* AppDelegate.swift */,
+				E1E502D51EABAB2800620702 /* Main.storyboard */,
+				E1E502D81EABAB2800620702 /* Assets.xcassets */,
+				E1E502DA1EABAB2800620702 /* LaunchScreen.storyboard */,
+				E1E502DD1EABAB2800620702 /* Info.plist */,
+				E1E502FF1EABAB9000620702 /* LoginVC.swift */,
+			);
+			path = Auxcord;
+			sourceTree = "<group>";
+		};
+		E1E502E51EABAB2800620702 /* AuxcordTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1E502E61EABAB2800620702 /* AuxcordTests.swift */,
+				E1E502E81EABAB2800620702 /* Info.plist */,
+			);
+			path = AuxcordTests;
+			sourceTree = "<group>";
+		};
+		E1E502F01EABAB2800620702 /* AuxcordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1E502F11EABAB2800620702 /* AuxcordUITests.swift */,
+				E1E502F31EABAB2800620702 /* Info.plist */,
+			);
+			path = AuxcordUITests;
+			sourceTree = "<group>";
+		};
+		F945710EC9A779931349EC74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CF1D7EEE897098E1E3B7CA1 /* Pods-Auxcord.debug.xcconfig */,
+				CCC0481C5D0147B31F88006F /* Pods-Auxcord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E502C91EABAB2700620702 /* Auxcord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E502F61EABAB2800620702 /* Build configuration list for PBXNativeTarget "Auxcord" */;
+			buildPhases = (
+				D0A51E89F39801BB69762C3B /* [CP] Check Pods Manifest.lock */,
+				E1E502C61EABAB2700620702 /* Sources */,
+				E1E502C71EABAB2700620702 /* Frameworks */,
+				E1E502C81EABAB2700620702 /* Resources */,
+				B03B2CDB78E8E1878B06B6EF /* [CP] Embed Pods Frameworks */,
+				0FA01FBF668E458B20285BC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Auxcord;
+			productName = Auxcord;
+			productReference = E1E502CA1EABAB2700620702 /* Auxcord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1E502E11EABAB2800620702 /* AuxcordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E502F91EABAB2800620702 /* Build configuration list for PBXNativeTarget "AuxcordTests" */;
+			buildPhases = (
+				E1E502DE1EABAB2800620702 /* Sources */,
+				E1E502DF1EABAB2800620702 /* Frameworks */,
+				E1E502E01EABAB2800620702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E502E41EABAB2800620702 /* PBXTargetDependency */,
+			);
+			name = AuxcordTests;
+			productName = AuxcordTests;
+			productReference = E1E502E21EABAB2800620702 /* AuxcordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1E502EC1EABAB2800620702 /* AuxcordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E502FC1EABAB2800620702 /* Build configuration list for PBXNativeTarget "AuxcordUITests" */;
+			buildPhases = (
+				E1E502E91EABAB2800620702 /* Sources */,
+				E1E502EA1EABAB2800620702 /* Frameworks */,
+				E1E502EB1EABAB2800620702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E502EF1EABAB2800620702 /* PBXTargetDependency */,
+			);
+			name = AuxcordUITests;
+			productName = AuxcordUITests;
+			productReference = E1E502ED1EABAB2800620702 /* AuxcordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E502C21EABAB2700620702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Auxcord;
+				TargetAttributes = {
+					E1E502C91EABAB2700620702 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FFJ24SU52E;
+						ProvisioningStyle = Automatic;
+					};
+					E1E502E11EABAB2800620702 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FFJ24SU52E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1E502C91EABAB2700620702;
+					};
+					E1E502EC1EABAB2800620702 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FFJ24SU52E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1E502C91EABAB2700620702;
+					};
+				};
+			};
+			buildConfigurationList = E1E502C51EABAB2700620702 /* Build configuration list for PBXProject "Auxcord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1E502C11EABAB2600620702;
+			productRefGroup = E1E502CB1EABAB2700620702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E502C91EABAB2700620702 /* Auxcord */,
+				E1E502E11EABAB2800620702 /* AuxcordTests */,
+				E1E502EC1EABAB2800620702 /* AuxcordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E502C81EABAB2700620702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E502DC1EABAB2800620702 /* LaunchScreen.storyboard in Resources */,
+				E1E502D91EABAB2800620702 /* Assets.xcassets in Resources */,
+				E1E502D71EABAB2800620702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E502E01EABAB2800620702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E502EB1EABAB2800620702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FA01FBF668E458B20285BC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auxcord/Pods-Auxcord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03B2CDB78E8E1878B06B6EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auxcord/Pods-Auxcord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A51E89F39801BB69762C3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E502C61EABAB2700620702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E503001EABAB9000620702 /* LoginVC.swift in Sources */,
+				E1E502CE1EABAB2700620702 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E502DE1EABAB2800620702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E502E71EABAB2800620702 /* AuxcordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E502E91EABAB2800620702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E502F21EABAB2800620702 /* AuxcordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1E502E41EABAB2800620702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E502C91EABAB2700620702 /* Auxcord */;
+			targetProxy = E1E502E31EABAB2800620702 /* PBXContainerItemProxy */;
+		};
+		E1E502EF1EABAB2800620702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E502C91EABAB2700620702 /* Auxcord */;
+			targetProxy = E1E502EE1EABAB2800620702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1E502D51EABAB2800620702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E502D61EABAB2800620702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1E502DA1EABAB2800620702 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E502DB1EABAB2800620702 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1E502F41EABAB2800620702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1E502F51EABAB2800620702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E502F71EABAB2800620702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF1D7EEE897098E1E3B7CA1 /* Pods-Auxcord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFJ24SU52E;
+				INFOPLIST_FILE = Auxcord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Auxcord.Auxcord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E1E502F81EABAB2800620702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC0481C5D0147B31F88006F /* Pods-Auxcord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFJ24SU52E;
+				INFOPLIST_FILE = Auxcord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Auxcord.Auxcord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E1E502FA1EABAB2800620702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FFJ24SU52E;
+				INFOPLIST_FILE = AuxcordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Auxcord.AuxcordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auxcord.app/Auxcord";
+			};
+			name = Debug;
+		};
+		E1E502FB1EABAB2800620702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FFJ24SU52E;
+				INFOPLIST_FILE = AuxcordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Auxcord.AuxcordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auxcord.app/Auxcord";
+			};
+			name = Release;
+		};
+		E1E502FD1EABAB2800620702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FFJ24SU52E;
+				INFOPLIST_FILE = AuxcordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Auxcord.AuxcordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Auxcord;
+			};
+			name = Debug;
+		};
+		E1E502FE1EABAB2800620702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FFJ24SU52E;
+				INFOPLIST_FILE = AuxcordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Auxcord.AuxcordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Auxcord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E502C51EABAB2700620702 /* Build configuration list for PBXProject "Auxcord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E502F41EABAB2800620702 /* Debug */,
+				E1E502F51EABAB2800620702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E502F61EABAB2800620702 /* Build configuration list for PBXNativeTarget "Auxcord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E502F71EABAB2800620702 /* Debug */,
+				E1E502F81EABAB2800620702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1E502F91EABAB2800620702 /* Build configuration list for PBXNativeTarget "AuxcordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E502FA1EABAB2800620702 /* Debug */,
+				E1E502FB1EABAB2800620702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1E502FC1EABAB2800620702 /* Build configuration list for PBXNativeTarget "AuxcordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E502FD1EABAB2800620702 /* Debug */,
+				E1E502FE1EABAB2800620702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E502C21EABAB2700620702 /* Project object */;
+}
