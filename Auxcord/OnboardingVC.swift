@@ -16,9 +16,12 @@ class OnboardingVC: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var startButton: UIButton!
     
+    var gradientLayer: CAGradientLayer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        createGradientLayer()
+
         //1
         self.scrollView.frame = CGRect(x:0, y:0, width:self.view.frame.width, height:self.view.frame.height)
         let scrollViewWidth:CGFloat = self.scrollView.frame.width
@@ -26,6 +29,7 @@ class OnboardingVC: UIViewController, UIScrollViewDelegate {
         //2
         textView.textAlignment = .center
         textView.text = "An app to visually chronologize and organize travel anecdotes for the modern explorer."
+        self.startButton.layer.cornerRadius = 4.0
         //3
         let imgOne = UIImageView(frame: CGRect(x:0, y:0,width:scrollViewWidth, height:scrollViewHeight))
         imgOne.image = UIImage(named: "Lemonade")
@@ -45,7 +49,7 @@ class OnboardingVC: UIViewController, UIScrollViewDelegate {
         self.scrollView.delegate = self
         self.pageControl.currentPage = 0
         
-        Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(moveToNextPage), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(moveToNextPage), userInfo: nil, repeats: true)
     }
     
     func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView){
@@ -58,12 +62,21 @@ class OnboardingVC: UIViewController, UIScrollViewDelegate {
         if Int(currentPage) == 0{
             textView.text = "Constantly fighting with your friends over the aux cord? You need to take several seats and sip some lemonade."
         }else if Int(currentPage) == 1{
-            textView.text = "A living time capsule"
+            textView.text = "Squabble on road trips, no more. Auxcord is here!"
         }else if Int(currentPage) == 2{
-            textView.text = "Create diary entries, track them on a map, see all your memories laid out."
+            textView.text = "Take a blissful, stress free journey with us. Simply eneter your Soundcload usernames and we work some magic."
         }else{
-            textView.text = "Register and start cataloging the places you've been."
+            textView.text = "Your squad's favorite music in one convenient playlist. Spend more time on creating memories and jamming out."
+            self.startButton.alpha = 1.0
         }
+    }
+    
+    func createGradientLayer() {
+        gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        gradientLayer.colors = [UIColor(red:1.00, green:0.73, blue:0.76, alpha:1.0).cgColor,
+                                UIColor(red:0.71, green:0.84, blue:0.80, alpha:1.0).cgColor]
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
     
     func moveToNextPage (){
