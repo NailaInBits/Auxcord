@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		45D1616CA620E382EE159F23 /* Pods_Auxcord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F6FF6BA16D48ADEAD40D56 /* Pods_Auxcord.framework */; };
+<<<<<<< HEAD
+		A4FDE2F01EABDD5900C59FE5 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FDE2EF1EABDD5900C59FE5 /* OnboardingVC.swift */; };
+=======
 		E16F80211EABCD8500C1975E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E16F80201EABCD8400C1975E /* GoogleService-Info.plist */; };
+>>>>>>> master
 		E1E502CE1EABAB2700620702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E502CD1EABAB2700620702 /* AppDelegate.swift */; };
 		E1E502D71EABAB2800620702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E502D51EABAB2800620702 /* Main.storyboard */; };
 		E1E502D91EABAB2800620702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E502D81EABAB2800620702 /* Assets.xcassets */; };
@@ -38,6 +42,7 @@
 /* Begin PBXFileReference section */
 		37F6FF6BA16D48ADEAD40D56 /* Pods_Auxcord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auxcord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF1D7EEE897098E1E3B7CA1 /* Pods-Auxcord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auxcord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auxcord/Pods-Auxcord.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FDE2EF1EABDD5900C59FE5 /* OnboardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		CCC0481C5D0147B31F88006F /* Pods-Auxcord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auxcord.release.xcconfig"; path = "Pods/Target Support Files/Pods-Auxcord/Pods-Auxcord.release.xcconfig"; sourceTree = "<group>"; };
 		E16F80201EABCD8400C1975E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E1E502CA1EABAB2700620702 /* Auxcord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auxcord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,7 +125,12 @@
 				E1E502D81EABAB2800620702 /* Assets.xcassets */,
 				E1E502DA1EABAB2800620702 /* LaunchScreen.storyboard */,
 				E1E502DD1EABAB2800620702 /* Info.plist */,
+<<<<<<< HEAD
+				E1E502FF1EABAB9000620702 /* LoginVC.swift */,
+				A4FDE2EF1EABDD5900C59FE5 /* OnboardingVC.swift */,
+=======
 				E16F80201EABCD8400C1975E /* GoogleService-Info.plist */,
+>>>>>>> master
 			);
 			path = Auxcord;
 			sourceTree = "<group>";
@@ -342,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E503001EABAB9000620702 /* LoginVC.swift in Sources */,
+				A4FDE2F01EABDD5900C59FE5 /* OnboardingVC.swift in Sources */,
 				E1E502CE1EABAB2700620702 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
