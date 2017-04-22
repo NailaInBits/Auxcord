@@ -34,7 +34,7 @@ class LoginVC: UIViewController {
                     if ((err) != nil) {
                         print("Error: \(String(describing: err))")
                     } else {
-                        print("fetched user: \(String(describing: result))")
+                        print("Fetched user: \(String(describing: result))")
                         
                         let values: [String:AnyObject] = result as! [String : AnyObject]
                         
