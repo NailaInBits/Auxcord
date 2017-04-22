@@ -20,7 +20,7 @@ class LoginVC: UIViewController {
     }
     
     func checkForFirstTime() {
-        let ref = FIRDatabase.database().reference(fromURL: "https://dayday-39e15.firebaseio.com/users")
+        let ref = FIRDatabase.database().reference(fromURL: "https://auxcord-bfec0.firebaseio.com")
         guard let uid = FIRAuth.auth()?.currentUser?.uid else {
             return
         }
@@ -50,7 +50,7 @@ class LoginVC: UIViewController {
                         })
                         
                         // Present the onboarding view
-                        if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "Onboarding") {
+                        if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "onboarding") {
                             UIApplication.shared.keyWindow?.rootViewController = viewController
                             
                             self.dismiss(animated: true, completion: nil)
@@ -98,12 +98,12 @@ class LoginVC: UIViewController {
                     self.checkForFirstTime()
                 }
                 
-                /* Present the main view
-                if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "Onboarding") {
+                // Present the main view
+                if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "onboarding") {
                     UIApplication.shared.keyWindow?.rootViewController = viewController
                     
                     self.dismiss(animated: true, completion: nil)
-                } */
+                }
                 
             })
             
